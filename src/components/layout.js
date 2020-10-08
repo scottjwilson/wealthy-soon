@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import "typeface-oxygen"
 import "typeface-montserrat"
 import SEO from "./seo"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 import theme from "../../config/theme"
 
 const Layout = ({ children }) => (

@@ -8,7 +8,6 @@ export const typography = new Typography({
     "Roboto",
     "-apple-system",
     "BlinkMacSystemFont",
-
     "Helvetica",
     "Arial",
     "sans-serif",
