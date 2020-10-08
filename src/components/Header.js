@@ -12,7 +12,7 @@ const Header = () => {
           <Column lg={12}>
             <h1>Wealty Soon</h1>
             <Image />
-            <h2>Supply and Demand Trading</h2>
+            <h2>Supply & Demand Trading Course</h2>
             <p>Bits of Advice for Traders seeking maximum profitablity</p>
           </Column>
         </Row>
@@ -27,7 +27,16 @@ const Wrapper = styled.div`
   color: ${theme.colors.primary.green};
 
   h1 {
+    font-size: 3rem;
+
     margin: 1rem 0;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 1px 1px #fff;
   }
 `
 

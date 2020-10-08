@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Wealthy Soon`,
-    description: `We pay top dollar for Apple electronics. iPhones, iPads, Macbooks.`,
+    description: `Bits of Advice for Traders seeking maximum profitablity`,
     author: `@wealthy.soon`,
   },
   plugins: [

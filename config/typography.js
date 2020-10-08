@@ -1,7 +1,7 @@
 import Typography from "typography"
 
 export const typography = new Typography({
-  title: "AVPhone",
+  title: "Wealthy Soon",
   baseFontSize: "16px",
   baseLineHeight: 1.65,
   headerFontFamily: [

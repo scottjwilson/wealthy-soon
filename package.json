@@ -35,6 +35,7 @@
     "typeface-open-sans": "^0.0.75",
     "typeface-oxygen": "^0.0.72",
     "typeface-passion-one": "^0.0.72",
+    "typeface-roboto": "^1.1.13",
     "typography": "^0.16.19"
   },
   "devDependencies": {
