@@ -17,6 +17,9 @@ const Testimonials = () => {
           </ul>
 
           <h1>What will you learn?</h1>
+          <ul><li>How to chart Supply and Demand zones</li></ul>
+
+    
         </Column>
       </Row>
     </Container>
