@@ -1,9 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container, Row, Col } from "react-grid-system"
+
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
-import theme from "../../config/theme"
 
 const Image = () => {
   const data = useStaticQuery(graphql`
@@ -18,17 +17,9 @@ const Image = () => {
     }
   `)
   return (
-    <div>
-      <Container>
-        <Row>
-          <Col>
-            <ProfileWrapper>
-              <Profile fluid={data.placeholderImage.childImageSharp.fluid} />
-            </ProfileWrapper>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+      <ProfileWrapper>
+        <Profile fluid={data.placeholderImage.childImageSharp.fluid} />
+      </ProfileWrapper>
   )
 }
 
@@ -40,6 +31,8 @@ const ProfileWrapper = styled.div`
 
 const Profile = styled(Img)`
   border-radius: 50%;
+  border: 5px solid white;
+
 `
 
 export default Image

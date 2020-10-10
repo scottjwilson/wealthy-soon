@@ -5,6 +5,7 @@ export const typography = new Typography({
   baseFontSize: "16px",
   baseLineHeight: 1.65,
   headerFontFamily: [
+    "Manrope",
     "Roboto",
     "-apple-system",
     "BlinkMacSystemFont",
@@ -13,6 +14,7 @@ export const typography = new Typography({
     "sans-serif",
   ],
   bodyFontFamily: [
+    "Roboto",
     "Open Sans",
     "-apple-system",
     "BlinkMacSystemFont",

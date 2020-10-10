@@ -22,29 +22,35 @@ const Header = () => {
 }
 
 const Wrapper = styled.div`
-  padding: 0 0 1rem 0;
+  padding: 3rem 0;
   background-color: ${theme.colors.primary.darker};
   color: ${theme.colors.primary.green};
 
   h1 {
-    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
 
     margin: 1rem 0;
   }
   h2 {
-    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
-    font-style: italic;
+    /* font-style: italic; */
     text-shadow: 1px 1px #fff;
   }
 `
 
 const Column = styled(Col)`
+  background-color: ${theme.colors.primary.dark};
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);
+  
 `
 
 export default Header

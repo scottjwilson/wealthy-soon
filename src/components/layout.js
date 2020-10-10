@@ -3,7 +3,7 @@ import { ThemeProvider } from "emotion-theming"
 import { css, Global } from "@emotion/core"
 import PropTypes from "prop-types"
 import "typeface-roboto"
-import "typeface-montserrat"
+import "typeface-manrope"
 import SEO from "./seo"
 import Footer from "../components/Footer"
 import theme from "../../config/theme"
@@ -39,6 +39,8 @@ const Layout = ({ children }) => (
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            background-color: ${theme.colors.primary.darker};
+            color: ${theme.colors.white.base};
           }
           a {
             color: ${theme.colors.link};

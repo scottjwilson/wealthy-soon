@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import styled from "@emotion/styled"
 import { RiWhatsappFill } from "react-icons/ri"
 import "typeface-open-sans"
-import "typeface-passion-one"
 
 const ThankYou = () => (
   <Layout>
@@ -43,13 +42,11 @@ const StyledContainer = styled(Container)`
 `
 const Ty = styled(Col)`
   h1 {
-    font-family: Passion One;
     color: #e43b2c;
     font-size: 4rem;
     margin: 0;
   }
   h2 {
-    font-family: Passion One;
     color: #2f2f2f;
     font-size: 2rem;
 
