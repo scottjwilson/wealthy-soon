@@ -55,7 +55,7 @@ const Optin = () => {
             </Col>
             <Col md={4}>
               <Sub disabled={disabled} type="submit">
-                Get The Training
+                Get The Course
               </Sub>
             </Col>
 

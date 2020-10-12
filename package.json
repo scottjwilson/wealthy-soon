@@ -27,6 +27,7 @@
     "react-grid-system": "^7.0.3",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
+    "react-scroll": "^1.8.1",
     "react-typography": "^0.16.19",
     "typeface-manrope": "^1.0.0",
     "typeface-montserrat": "^0.0.75",
