@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-grid-system"
+import { Container, Row, Col } from "react-bootstrap"
 import BuyButton from "./BuyButton"
 import styled from "@emotion/styled"
 import One from "./Testimonials/One"
@@ -12,7 +12,7 @@ const Testimonials = () => {
         <Column lg={12}>
           <span />
           <h1>Who this is for 🙋</h1>
-          <h4>Beginners</h4>
+
           <ul>
             <li>This information is essential for any trader in the market</li>
             <li>Someone who wants an edge in the the market </li>
@@ -21,7 +21,7 @@ const Testimonials = () => {
             </li>
           </ul>
           <Paper>
-            <h1>What will you learn?</h1>
+            <h2>What will you learn?</h2>
             <ul>
               <li>🗠 How to chart Supply and Demand zones</li>
               <li>🎯 How to plot consistent, effienct entries into trades</li>
@@ -56,7 +56,7 @@ const Column = styled(Col)`
     width: 75%;
     margin: 2rem 0;
     border-radius: 3rem;
-    border: 1px solid #666;
+    border: 1px solid #333;
   }
   h4 {
     text-transform: uppercase;
@@ -72,6 +72,7 @@ const Paper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 100%;
   border-radius: 2rem;
   padding: 2rem;
   margin: 2rem 0;

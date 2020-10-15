@@ -23,8 +23,8 @@ const One = () => {
 }
 
 const ImageWrapper = styled.div`
-  height: 50%;
-  width: 50%;
+  height: 75%;
+  width: 75%;
   margin-bottom: 2rem;
   box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);
 `

@@ -7,7 +7,7 @@ import "typeface-manrope"
 import SEO from "./seo"
 import Footer from "../components/Footer"
 import theme from "../../config/theme"
-
+import "bootstrap/dist/css/bootstrap.min.css"
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <Fragment>
@@ -33,6 +33,7 @@ const Layout = ({ children }) => (
             height: 100%;
             margin: 0;
             padding: 0;
+            background-color: ${theme.colors.primary.darker};
           }
 
           body {
@@ -53,6 +54,7 @@ const Layout = ({ children }) => (
           }
           h1 {
             font-family: ${theme.fontFamily.heading};
+            color: #fff;
           }
         `}
       />
