@@ -8,7 +8,13 @@ const BuyButton = () => {
     scroll.scrollToTop()
   }
   return (
-    <CourseButton size="lg" variant="danger" block onClick={scrollToTop}>
+    <CourseButton
+      className="my-3"
+      size="lg"
+      variant="danger"
+      block
+      onClick={scrollToTop}
+    >
       Get The Course
     </CourseButton>
   )
