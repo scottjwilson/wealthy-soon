@@ -8,13 +8,14 @@ const BuyButton = () => {
     scroll.scrollToTop()
   }
   return (
-    <CourseButton variant="danger" block onClick={scrollToTop}>
+    <CourseButton size="lg" variant="danger" block onClick={scrollToTop}>
       Get The Course
     </CourseButton>
   )
 }
 
 const CourseButton = styled(Button)`
+  height: 100%;
   width: 75%;
   background-color: rgba(216, 0, 35, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.2);
