@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Button } from "react-bootstrap"
 import BuyButton from "./BuyButton"
 import styled from "@emotion/styled"
 import One from "./Testimonials/One"
@@ -47,6 +47,9 @@ const Testimonials = () => {
           <span />
           <Three />
           <BuyButton />
+          <Button className="my-3" size="lg" variant="danger" block>
+            Get the course
+          </Button>
           <Two />
           <One />
           <BuyButton />
