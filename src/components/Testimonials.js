@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import BuyButton from "./BuyButton"
 import styled from "@emotion/styled"
 import One from "./Testimonials/One"
@@ -24,32 +24,30 @@ const Testimonials = () => {
               </li>
             </ul>
           </div>
-          <Paper>
-            <div className="my-3">
-              <h1>What will you learn?</h1>
-              <ul className="mt-4">
-                <li>🗠 How to chart Supply and Demand zones</li>
-                <li>🎯 How to plot consistent, effienct entries into trades</li>
-                <li>
-                  🏦 How to trade like an <strong>Instituion</strong>
-                </li>
+        </Column>
+        <Paper lg={12}>
+          <div className="my-3">
+            <h1>What will you learn?</h1>
+            <ul className="mt-4">
+              <li>🗠 How to chart Supply and Demand zones</li>
+              <li>🎯 How to plot consistent, effienct entries into trades</li>
+              <li>
+                🏦 How to trade like an <strong>Instituion</strong>
+              </li>
 
-                <li>
-                  How to increase your overall win percentage and minimize risk
-                </li>
-              </ul>
-            </div>
-          </Paper>
-
+              <li>
+                💰 How to increase your overall win percentage and minimize risk
+              </li>
+            </ul>
+          </div>
+        </Paper>
+        <Column lg={12}>
           <Testimonial className="my-3">
             <h1>🔥 What others have said 🔥</h1>
           </Testimonial>
           <span />
           <Three />
           <BuyButton />
-          <Button className="my-3" size="lg" variant="danger" block>
-            Get the course
-          </Button>
           <Two />
           <One />
           <BuyButton />
@@ -83,11 +81,12 @@ const Column = styled(Col)`
   }
 `
 
-const Paper = styled.div`
+const Paper = styled(Col)`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   width: 100%;
   height: 100%;
   border-radius: 2rem;
@@ -98,9 +97,13 @@ const Paper = styled.div`
   box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);
   h1 {
     color: #000;
+    text-align: center;
   }
   ul {
     margin: 0;
+  }
+  li {
+    list-style: none;
   }
 `
 
