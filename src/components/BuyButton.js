@@ -22,6 +22,7 @@ const BuyButton = () => {
 
 const CourseButton = styled(Button)`
   width: 75%;
+  height: 100%;
   background-color: rgba(216, 0, 35, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 4px solid rgba(0, 0, 0, 0.2);
