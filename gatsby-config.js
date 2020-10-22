@@ -57,6 +57,12 @@ module.exports = {
         pageTransitionDelay: 0,
       },
     },
+    {
+      resolve: "gatsby-plugin-load-script",
+      options: {
+        src: "/gumroad.js", // Change to the script filename
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
