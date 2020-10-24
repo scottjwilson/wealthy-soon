@@ -3,16 +3,14 @@ import styled from "@emotion/styled"
 import { Container, Row, Col } from "react-grid-system"
 import Image from "./Image"
 import theme from "../../config/theme"
-import Fade from "react-reveal/Fade"
+
 const Header = props => {
   return (
     <Wrapper>
       <Container>
         <Row>
           <Column lg={12}>
-            <Fade left>
-              <h1>{props.heading1}</h1>
-            </Fade>
+            <h1>{props.heading1}</h1>
 
             <Image />
             <h2>{props.heading2}</h2>
