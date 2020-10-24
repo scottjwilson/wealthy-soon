@@ -31,10 +31,6 @@ const Testimonials = () => {
             <div className="my-3">
               <h1>What will you learn?</h1>
 
-              <a href="gumroad-button" href="https://gum.co/JXseLp">
-                Purchase
-              </a>
-
               <ul className="mt-4">
                 <li>🗠 How to chart Supply and Demand zones</li>
                 <li>🎯 How to plot consistent, effienct entries into trades</li>

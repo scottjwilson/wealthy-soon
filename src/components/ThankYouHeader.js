@@ -3,8 +3,9 @@ import styled from "@emotion/styled"
 import { Container, Row, Col } from "react-grid-system"
 import Image from "./Image"
 import theme from "../../config/theme"
+import Button from "react-bootstrap/Button"
 
-const Header = props => {
+const ThankYouHeader = props => {
   return (
     <Wrapper>
       <Container>
@@ -14,6 +15,15 @@ const Header = props => {
             <Image />
             <h2>{props.heading2}</h2>
             <p>{props.paragraph}</p>
+            <TyButton
+              href="https://gum.co/JXseLp"
+              className="my-3"
+              size="lg"
+              variant="danger"
+              block
+            >
+              Purchase
+            </TyButton>
           </Column>
         </Row>
       </Container>
@@ -35,8 +45,7 @@ const Wrapper = styled.div`
   h2 {
     text-align: center;
     text-transform: uppercase;
-    /* font-style: italic; */
-    text-shadow: 1px 1px #fff;
+    /* text-shadow: 1px 1px #fff; */
   }
 `
 
@@ -52,4 +61,16 @@ const Column = styled(Col)`
   box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);
 `
 
-export default Header
+const TyButton = styled(Button)`
+  width: 75%;
+  height: 100%;
+  background-color: rgba(216, 0, 35, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background-color: rgba(216, 0, 35, 0.9);
+  }
+`
+
+export default ThankYouHeader

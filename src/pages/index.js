@@ -9,7 +9,14 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Supply & Demand Trading" />
-      <Header />
+      <Header
+        heading1="wealthy soon"
+        heading2="SUPPLY & DEMAND TRADING COURSE
+        "
+        paragraph="Bits of Advice for Traders seeking maximum profitablity
+
+        "
+      />
       <Optin />
       <Testimonials />
     </Layout>
