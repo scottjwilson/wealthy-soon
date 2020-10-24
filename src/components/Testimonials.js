@@ -13,7 +13,7 @@ const Testimonials = () => {
         <Row>
           <Column lg={12}>
             <span />
-            <div className="my-3">
+            <div className="my-5">
               <h1 className="align-center">Who this is for 🙋</h1>
               <ul className="mt-4">
                 <li>
@@ -46,7 +46,7 @@ const Testimonials = () => {
             </div>
           </Paper>
           <Column lg={12}>
-            <Testimonial className="my-3">
+            <Testimonial className="my-5">
               <h1>🔥 What others have said 🔥</h1>
             </Testimonial>
             <span />

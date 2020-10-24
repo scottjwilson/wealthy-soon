@@ -45,7 +45,7 @@ const Wrapper = styled.div`
   h2 {
     text-align: center;
     text-transform: uppercase;
-    /* text-shadow: 1px 1px #fff; */
+    /* font-style: italic; */
   }
 `
 
