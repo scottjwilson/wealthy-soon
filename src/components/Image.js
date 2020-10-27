@@ -17,9 +17,9 @@ const Image = () => {
     }
   `)
   return (
-      <ProfileWrapper>
-        <Profile fluid={data.placeholderImage.childImageSharp.fluid} />
-      </ProfileWrapper>
+    <ProfileWrapper>
+      <Profile fluid={data.placeholderImage.childImageSharp.fluid} />
+    </ProfileWrapper>
   )
 }
 
@@ -32,7 +32,6 @@ const ProfileWrapper = styled.div`
 const Profile = styled(Img)`
   border-radius: 50%;
   border: 5px solid white;
-
 `
 
 export default Image

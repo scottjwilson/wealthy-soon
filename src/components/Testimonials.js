@@ -1,5 +1,4 @@
 import React from "react"
-import Helmet from "react-helmet"
 import { Container, Row, Col } from "react-bootstrap"
 import BuyButton from "./BuyButton"
 import styled from "@emotion/styled"
@@ -12,48 +11,16 @@ const Testimonials = () => {
       <Container>
         <Row>
           <Column lg={12}>
-            <span />
-            <div className="my-5">
-              <h1 className="align-center">Who this is for 🙋</h1>
-              <ul className="mt-4">
-                <li>
-                  This information is essential for any trader in the market
-                </li>
-                <li>Someone who wants an edge in the the market </li>
-                <li>
-                  The retail trader who has been LOSING more than they been
-                  WINNING
-                </li>
-              </ul>
-            </div>
-          </Column>
-          <Paper lg={12}>
-            <div className="my-3">
-              <h1>What will you learn?</h1>
-
-              <ul className="mt-4">
-                <li>🗠 How to chart Supply and Demand zones</li>
-                <li>🎯 How to plot consistent, effienct entries into trades</li>
-                <li>
-                  🏦 How to trade like an <strong>Instituion</strong>
-                </li>
-
-                <li>
-                  💰 How to increase your overall win percentage and minimize
-                  risk
-                </li>
-              </ul>
-            </div>
-          </Paper>
-          <Column lg={12}>
             <Testimonial className="my-5">
               <h1>🔥 What others have said 🔥</h1>
             </Testimonial>
             <span />
-            <Three />
+            <One />
             <BuyButton />
             <Two />
-            <One />
+
+            <BuyButton />
+            <Three />
             <BuyButton />
           </Column>
         </Row>

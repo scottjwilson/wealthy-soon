@@ -6,10 +6,10 @@ import styled from "@emotion/styled"
 const One = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "one.jpg" }) {
-        childImageSharp {
+      contentfulTestimonial1 {
+        image {
           fluid {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            ...GatsbyContentfulFluid_withWebp_noBase64
           }
         }
       }
@@ -17,7 +17,7 @@ const One = () => {
   `)
   return (
     <ImageWrapper>
-      <ImageOne fluid={data.placeholderImage.childImageSharp.fluid} />
+      <Img fluid={data.contentfulTestimonial1.image.fluid} />
     </ImageWrapper>
   )
 }
@@ -28,7 +28,5 @@ const ImageWrapper = styled.div`
   margin-bottom: 2rem;
   box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);
 `
-
-const ImageOne = styled(Img)``
 
 export default One

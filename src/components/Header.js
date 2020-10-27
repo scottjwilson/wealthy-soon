@@ -11,8 +11,8 @@ const Header = props => {
         <Row>
           <Column lg={12}>
             <h1>{props.heading1}</h1>
-
             <Image />
+
             <h2>{props.heading2}</h2>
             <p>{props.paragraph}</p>
           </Column>
