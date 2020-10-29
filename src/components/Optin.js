@@ -70,7 +70,7 @@ const Optin = () => {
 const Wrapper = styled.div`
   background-color: ${theme.colors.primary.dark};
   color: #ffffff;
-  margin: 0 0 2rem 0;
+
   padding: 1.5rem 0;
   border-top: 3px solid ${theme.colors.primary.green};
   border-bottom: 2rem solid ${theme.colors.primary.darker};

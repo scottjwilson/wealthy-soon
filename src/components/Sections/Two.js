@@ -18,19 +18,21 @@ const Two = () => {
   const { title, one, two, three } = data.contentfulSection2
 
   return (
-    <React.Fragment>
-      <Paper lg={12}>
-        <span />
-        <div className="my-5">
-          <h1 className="align-center">{title}</h1>
-          <ul className="mt-4">
-            <li>{one}</li>
-            <li>{two}</li>
-            <li>{three}</li>
-          </ul>
-        </div>
-      </Paper>
-    </React.Fragment>
+    <Container>
+      <Row>
+        <Paper lg={12}>
+          <span />
+          <div className="my-5">
+            <h1 className="align-center">{title}</h1>
+            <ul className="mt-4">
+              <li>{one}</li>
+              <li>{two}</li>
+              <li>{three}</li>
+            </ul>
+          </div>
+        </Paper>
+      </Row>
+    </Container>
   )
 }
 
@@ -40,11 +42,11 @@ const Paper = styled(Col)`
   align-items: center;
   justify-content: center;
 
-  width: 100%;
+  width: 90%;
   height: 100%;
   border-radius: 2rem;
   padding: 2rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
   color: #000;
   background-color: #f9f9f9;
   box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(0, 0, 0, 0.18);

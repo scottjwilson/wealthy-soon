@@ -17,7 +17,7 @@ const Image = () => {
     }
   `)
   return (
-    <ProfileWrapper>
+    <ProfileWrapper className="my-3">
       <Profile fluid={data.placeholderImage.childImageSharp.fluid} />
     </ProfileWrapper>
   )
@@ -26,7 +26,6 @@ const Image = () => {
 const ProfileWrapper = styled.div`
   height: 10rem;
   width: 10rem;
-  margin-bottom: 2rem;
 `
 
 const Profile = styled(Img)`

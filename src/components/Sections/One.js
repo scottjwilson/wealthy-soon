@@ -18,19 +18,21 @@ const One = () => {
   const { title, one, two, three } = data.contentfulSection1
 
   return (
-    <React.Fragment>
-      <Column lg={12}>
-        <span />
-        <div className="my-5">
-          <h1 className="align-center">{title}</h1>
-          <ul className="mt-4">
-            <li>{one}</li>
-            <li>{two}</li>
-            <li>{three}</li>
-          </ul>
-        </div>
-      </Column>
-    </React.Fragment>
+    <Container>
+      <Row>
+        <Column lg={12}>
+          <span />
+          <div className="my-5">
+            <h1 className="align-center">{title}</h1>
+            <ul className="mt-4">
+              <li>{one}</li>
+              <li>{two}</li>
+              <li>{three}</li>
+            </ul>
+          </div>
+        </Column>
+      </Row>
+    </Container>
   )
 }
 
